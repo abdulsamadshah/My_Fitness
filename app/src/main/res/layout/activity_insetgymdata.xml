@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.Fragment.Developers.insetgymdata">
+
+
+    <Spinner
+        android:id="@+id/categoryselect"
+        android:layout_width="317dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="28dp"
+        android:background="#CBC9CD"
+        android:tooltipText="select the category"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categoryname"
+        android:layout_width="323dp"
+        android:layout_height="56dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/categoryselect"
+        app:layout_constraintStart_toStartOf="@+id/categoryselect"
+        app:layout_constraintTop_toTopOf="@+id/categoryselect"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/submitdata"
+        android:layout_width="292dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="38dp"
+        android:text="Submit"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/cimage"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryselect" />
+    <EditText
+        android:id="@+id/imgname"
+        android:layout_width="315dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Category Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cimage" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="313dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgname" />
+
+
+    <EditText
+        android:id="@+id/subdescription"
+        android:layout_width="313dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Sub Description"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seconddescription" />
+
+    <EditText
+        android:id="@+id/seconddescription"
+        android:layout_width="313dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Second Description"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="340dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/subdescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

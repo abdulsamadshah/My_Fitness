@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/profile"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/profile"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFitness">
+        <activity
+            android:name=".Activity.Activity.exmain"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activity.Activity.Creatplan"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity.tipabout"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity.Setting"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity.Profilea"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Activity.absviewA"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Fragment.Developers.insetgymdata"
+            android:exported="false" />
+        <!-- <activity -->
+        <!-- android:name=".Activity.Activity.MainActivity" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".Activity.Activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".Activity.Models.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

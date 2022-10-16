@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="227dp"
+        android:backgroundTint="@color/shimmerd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/nheaderimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/shimmerbc"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/ntitles"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="190dp"
+            android:background="@color/shimmerd"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingLeft="10dp"
+
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/ndesc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="210dp"
+            android:background="@color/shimmerd"
+            android:paddingLeft="10dp"
+
+            android:textColor="@color/black" />
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

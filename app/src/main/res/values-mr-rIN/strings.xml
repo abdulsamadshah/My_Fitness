@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">माझी फिटनेस</string>
+    <string name="open">उघडा</string>
+    <string name="home">मुख्यपृष्ठ</string>
+    <string name="Plans">योजना</string>
+    <string name="tips">टिपा</string>
+    <string name="more">अधिक</string>
+    <string name="track_selection_title">व्हिडिओ गुणवत्ता</string>
+    <string name="buttocks">नितंब</string>
+    <string name="desc">वर्णन</string>
+    <string name="subdesc">subdesc</string>
+    <string name="seconddesc">सेकंडडेस्क</string>
+    <string name="Abs">Abs</string>
+    <string name="biceps">बायसेप्स</string>
+    <string name="cardio">कार्डिओ</string>
+    <string name="tryceps">ट्रायसेप्स</string>
+    <string name="leg">पाय</string>
+    <string name="back">मागे</string>
+    <string name="for_arm">आर्म साठी</string>
+    <string name="chest">छाती</string>
+    <string name="level_beginner">स्तर: नवशिक्या</string>
+    <string name="calf">स्तर: नवशिक्या</string>
+    <string name="Profile">प्रोफाइल</string>
+    <string name="first_name">पहिले नाव</string>
+    <string name="last_name">आडनाव</string>
+    <string name="date_of_birth">जन्मतारीख</string>
+    <string name="gender">जन्मतारीख</string>
+    <string name="height">उंची</string>
+    <string name="weight">वजन</string>
+    <string name="Setting">सेटिंग</string>
+    <string name="general">सामान्य</string>
+    <string name="change_language">भाषा बदला</string>
+    <string name="logout">बाहेर पडणे</string>
+    <string name="notification">सूचना</string>
+    <string name="health_tips">आरोग्य टिप्स</string>
+    <string name="about">बद्दल</string>
+    <string name="privacy_policy">गोपनीयता धोरण</string>
+    <string name="share_this_app">हे अॅप शेअर करा</string>
+    <string name="shoulder">खांदा</string>
+    <string name="trapes">सापळे</string>
+    <string name="More">अधिक</string>
+    <string name="select_your_gender">तुमचे लिंग निवडा</string>
+    <string name="cancel">रद्द करा</string>
+    <string name="ok">ठीक आहे</string>
+    <string name="wort">कसरत टिपा</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable-v24/add2.xml" value="0.193" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable-v24/ic_logout.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable-v24/ic_personp.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable-v24/unselected.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/abslayoutd.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/absview.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/backbc.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/bicepsbc.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/bottombc.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/chestbc.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/delete.xml" value="0.193" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/edit.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/email.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/forarmbc.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/ic_calender.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/ic_gender.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/ic_person.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/ic_persons.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/legbc.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/privacypd.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/save.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/selected.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/setting.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/share.xml" value="0.162" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/toolbarcolor.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/drawable/tryceps.xml" value="0.16" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/abs_item.xml" value="0.25" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_abs.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_absview.xml" value="0.23058823529411765" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_back.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_biceps.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_buttock.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_calfmain.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_cardio.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_checking.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_chest.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_creatplan.xml" value="0.2" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_forarms.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_insetgymdata.xml" value="0.25" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_leg.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_profilea.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_setting.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_shoulder.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_tipabout.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_trapes.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/activity_triceps.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/allitems_layouts.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/exit.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_absf.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_biceps.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_chestf.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_more.xml" value="0.25" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_plans.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/fragment_tips.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/genderlayout.xml" value="0.2" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/navheader.xml" value="0.20416666666666666" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/notification_layout.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/plan_item.xml" value="0.22" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/privacypolicy.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/tips_layout.xml" value="0.21" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/track_selection_dialog.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/layout/ustom_controls.xml" value="0.33" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/menu/bottommenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/menu/headermenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/menu/language.xml" value="0.1814814814814815" />
+        <entry key="..\:/My Fitness Project/My Fitness/app/src/main/res/menu/menu.xml" value="0.1814814814814815" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">My Fitness</string>
+    <string name="open">Open</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="Plans">Plans</string>
+    <string name="tips">Tips</string>
+    <string name="more">More</string>
+    <string name="track_selection_title">Video Quality</string>
+    <string name="buttocks">Buttocks</string>
+    <string name="desc">TextView</string>
+    <string name="subdesc">TextView</string>
+    <string name="seconddesc">TextView</string>
+    <string name="Abs">Abs</string>
+    <string name="biceps">Biceps</string>
+    <string name="cardio">Cardio</string>
+    <string name="tryceps">Tryceps</string>
+    <string name="leg">Leg</string>
+    <string name="back">Back</string>
+    <string name="for_arm">For Arm</string>
+    <string name="chest">Chest</string>
+    <string name="level_beginner">Level: Beginner</string>
+    <string name="calf">Calf</string>
+    <string name="Profile">Profile</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="Setting">Setting</string>
+    <string name="general">General</string>
+    <string name="change_language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="notification">Notification</string>
+    <string name="health_tips">Health Tips</string>
+    <string name="about">About</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share_this_app">Share this App</string>
+    <string name="shoulder">Shoulder</string>
+
+    <string name="trapes">Trapes</string>
+    <string name="More">More</string>
+    <string name="select_your_gender">Select Your Gender</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="wort">Workout Tips</string>
+</resources>

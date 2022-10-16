@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">मेरी फिटनेस</string>
+    <string name="open">खुला हुआ</string>
+    <string name="home">घर</string>
+    <string name="Plans">योजनाओं</string>
+    <string name="tips">सलाह</string>
+    <string name="more">अधिक</string>
+    <string name="track_selection_title">वीडियो की गुणवत्ता</string>
+    <string name="buttocks">नितंबों</string>
+    <string name="desc">वर्णन</string>
+    <string name="subdesc">सबडेस्क</string>
+    <string name="seconddesc">सेकेंडडेस्क</string>
+    <string name="Abs">पेट</string>
+    <string name="biceps">मछलियां</string>
+    <string name="cardio">कार्डियो</string>
+    <string name="tryceps">त्रिशिस्क</string>
+    <string name="leg">टांग</string>
+    <string name="back">पीछे</string>
+    <string name="for_arm">आर्म के लिए</string>
+    <string name="chest">सीना</string>
+    <string name="level_beginner">स्तर: शुरुआती</string>
+    <string name="calf">बछड़ा</string>
+    <string name="Profile">प्रोफ़ाइल</string>
+    <string name="first_name">संतोष</string>
+    <string name="last_name">उपनाम</string>
+    <string name="date_of_birth">जन्म की तारीख</string>
+    <string name="gender">लिंग</string>
+    <string name="height">कद</string>
+    <string name="weight">वज़न</string>
+    <string name="Setting">स्थापना</string>
+    <string name="general">सामान्य</string>
+    <string name="change_language">भाषा बदलो</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="notification">अधिसूचना</string>
+    <string name="health_tips">स्वास्थ्य सुझाव</string>
+    <string name="about">के बारे में</string>
+    <string name="privacy_policy">गोपनीयता नीति</string>
+    <string name="share_this_app">इस एप को शेयर कीजिए</string>
+    <string name="shoulder">कंधा</string>
+    <string name="trapes">ट्रैपेस</string>
+    <string name="More">अधिक</string>
+    <string name="select_your_gender">अपना लिंग चुनें</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="ok">ठीक है</string>
+    <string name="wort">कसरत युक्तियाँ</string>
+</resources>

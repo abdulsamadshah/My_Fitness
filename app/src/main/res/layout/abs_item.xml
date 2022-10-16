@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_height="@dimen/_180sdp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="6dp"
+    android:orientation="vertical">
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/abscimg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/absview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:riv_border_color="@color/white"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="true"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/cname"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/absview"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingLeft="@dimen/_16sdp"
+        android:paddingTop="5dp"
+        android:text="@string/buttocks"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:autoSizeMinTextSize="@dimen/_17sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/abscimg"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desc"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/cname"
+        app:layout_constraintStart_toStartOf="@+id/abscimg"
+        app:layout_constraintTop_toTopOf="@+id/abscimg" />
+
+
+    <TextView
+        android:id="@+id/subdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subdesc"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/cname"
+        app:layout_constraintStart_toStartOf="@+id/abscimg"
+        app:layout_constraintTop_toTopOf="@+id/abscimg" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="136dp"
+        android:layout_height="97dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/seconddesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seconddesc"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/abscimg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/subdesc"
+        app:layout_constraintTop_toTopOf="@+id/abscimg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

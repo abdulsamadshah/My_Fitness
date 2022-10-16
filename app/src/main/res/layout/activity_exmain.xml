@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Activity.Activity.exmain">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/abstoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tbcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/Abs"
+        app:titleTextColor="@color/cardview_light_background" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abstoolbar">
+
+        <LinearLayout
+            android:id="@+id/horilinear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/abs"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/Abs"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/biceps"
+                android:layout_width="135dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/biceps"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+
+
+            <TextView
+                android:id="@+id/cardio"
+                android:layout_width="135dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/cardio"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/tryceps"
+                android:layout_width="@dimen/_100ssp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/tryceps"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/trapes"
+                android:layout_width="@dimen/_100ssp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/trapes"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/leg"
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/leg"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/shoulder"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/shoulder"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+            <TextView
+                android:id="@+id/back"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/back"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:id="@+id/forarms"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:text="@string/for_arm"
+                android:onClick="onClick"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+
+            <TextView
+                android:id="@+id/chest"
+                android:layout_width="@dimen/_95sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/chest"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/calf"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/calf"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+            <TextView
+                android:id="@+id/buttocks"
+                android:layout_width="@dimen/_95sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/unselected"
+                android:fontFamily="@font/poppins"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/buttocks"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="23dp" />
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/mycontainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>

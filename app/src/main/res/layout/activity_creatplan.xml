@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.Activity.Creatplan">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/addplan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/tbcolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Add Plan"
+        app:titleTextColor="@color/cardview_light_background" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="314dp"
+        android:layout_height="319dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addplan">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/smookywhite"
+            app:boxStrokeColor="#669CC5"
+            app:helperTextEnabled="true"
+            android:hint="Plan Name"
+            app:hintTextColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/javaprofile_image">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:textColorHint="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayouts"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/smookywhite"
+            app:boxStrokeColor="#669CC5"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/black"
+            android:hint="Description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/javaprofile_image">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pdesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:textColorHint="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutss"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_133sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/smookywhite"
+            app:boxStrokeColor="#669CC5"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/black"
+            android:hint="Select Goal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/javaprofile_image">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/selectgoal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:textColorHint="@color/black" />
+
+            <Spinner
+                android:id="@+id/selectgoalsp"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-45dp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutsss"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_187sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:textColorHint="@color/black"
+            app:boxBackgroundColor="@color/smookywhite"
+            app:boxStrokeColor="#669CC5"
+            app:helperTextEnabled="true"
+            app:hintTextColor="@color/black"
+            android:hint="Duration (Weeks)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/javaprofile_image">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dweek"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:inputType="number"
+                android:textColorHint="@color/black" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- first TextInputLayout -->
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/createnplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/tbcolor"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.633"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>
